@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Data files - keep folder structure but do not commit raw data unless allowed
+/data/raw/*.csv
+/data/raw/*.xlsx
+/data/raw/*.zip
+
+# Generated artifacts
+/models/*.joblib
+/models/*.pkl
+/figures/*.png
+/figures/*.jpg
+/data/processed/*.csv
+
+# Logs
+*.log
